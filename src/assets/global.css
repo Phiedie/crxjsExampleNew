@@ -1,0 +1,151 @@
+@import "tailwindcss";
+
+@source "..";
+
+@theme {
+  --color-red-50: #f6cad6;
+  --color-red-100: #f399ad;
+  --color-red-200: #ea6686;
+  --color-red-300: #e03d64;
+  --color-red-400: #d22250;
+  --color-red-500: #bf0d3e;
+  --color-red-600: #a60533;
+  --color-red-700: #8c0329;
+  --color-red-800: #6d0220;
+  --color-red-900: #4e0117;
+  --color-red-950: #2a000c;
+  --color-red: #bf0d3e;
+
+  --color-teal-50: #caf6ec;
+  --color-teal-100: #90f3dc;
+  --color-teal-200: #56eac8;
+  --color-teal-300: #28e0b5;
+  --color-teal-400: #0bd2a3;
+  --color-teal-500: #00b388;
+  --color-teal-600: #009774;
+  --color-teal-700: #007a5e;
+  --color-teal-800: #005c46;
+  --color-teal-900: #003b2d;
+  --color-teal-950: #001913;
+  --color-teal: #00b388;
+
+  --color-sky-50: #cae1f6;
+  --color-sky-100: #afd3f4;
+  --color-sky-200: #93c3f0;
+  --color-sky-300: #74aee5;
+  --color-sky-400: #589bd9;
+  --color-sky-500: #3d87cb;
+  --color-sky-600: #266daf;
+  --color-sky-700: #155591;
+  --color-sky-800: #083a68;
+  --color-sky-900: #001e3a;
+  --color-sky-950: #000c17;
+  --color-sky: #3d87cb;
+
+  --color-blue-50: #e0f7ff;
+  --color-blue-100: #c3eaff;
+  --color-blue-200: #a1d7ff;
+  --color-blue-300: #78bfff;
+  --color-blue-400: #4692e6;
+  --color-blue-500: #001a70;
+  --color-blue-600: #031146;
+  --color-blue-700: #000d3b;
+  --color-blue-800: #00082a;
+  --color-blue-900: #000415;
+  --color-blue-950: #000000;
+  --color-blue: #001a70;
+
+  --color-orange-50: #f9f3b0;
+  --color-orange-100: #eed583;
+  --color-orange-200: #e4c11c;
+  --color-orange-300: #f0a33f;
+  --color-orange-400: #e78c2a;
+  --color-orange-500: #e86a0e;
+  --color-orange-600: #e65021;
+  --color-orange-700: #d83d1a;
+  --color-orange-800: #c32b15;
+  --color-orange-900: #a91e0d;
+  --color-orange-950: #8f1309;
+  --color-orange: #e86a0e;
+
+  --color-gray-50: #ffffff;
+  --color-gray-100: #fafafa;
+  --color-gray-200: #f4f4f4;
+  --color-gray-300: #e6e6e6;
+  --color-gray-400: #bebebe;
+  --color-gray-500: #8c8c8c;
+  --color-gray-600: #5f5f5f;
+  --color-gray-700: #464646;
+  --color-gray-800: #2d2d2d;
+  --color-gray-900: #161616;
+  --color-gray-950: #000000;
+  --color-gray: #8c8c8c;
+
+  --font-sans: "Aeonik", "Arial Fallback", "Arial", sans-serif;
+  --font-serif: "Tiempos", "Georgia Fallback", "Georgia", serif;
+}
+
+@font-face {
+  font-family: 'Aeonik-Italic';
+  src: url('AeonikVF-Italic.woff2') format('woff2');
+  font-weight:  lighter normal bold bolder ;
+  font-style: italic;
+  font-display: swap;
+} 
+@font-face {
+  font-family: 'Aeonik';
+  src: url('AeonikVF.woff2') format('woff2');
+  font-weight: lighter normal bold bolder ;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Tiempos';
+  src: url('Tiempos-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Adjusted Fallback-Fonts if loading of the webfont has problems */
+@font-face {
+  font-family: 'Arial Fallback';
+  src: local(Arial);
+  size-adjust: 100%;
+  ascent-override: 90%;
+}
+@font-face {
+  font-family: 'Georgia Fallback';
+  src: local(Georgia);
+  size-adjust: 105%;
+  ascent-override: 100%;
+}
+
+@font-face {
+  font-family: 'Material Icons';
+  src: url('google-material-icons.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: 'Material Fallback';
+  src: local(Arial);
+  size-adjust: 20%;
+  ascent-override: 400%;
+  descent-override: 400%;
+}
+
+.material-icons, .material_icons {
+  font-family: 'Material Icons', 'Material Fallback';
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+}

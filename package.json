@@ -1,0 +1,22 @@
+{
+  "name": "test-project",
+  "type": "module",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.18",
+    "svelte": "^5.51.2",
+    "tailwindcss": "^4.1.18"
+  },
+  "devDependencies": {
+    "@crxjs/vite-plugin": "^2.3.0",
+    "@sveltejs/vite-plugin-svelte": "^6.2.4",
+    "@types/chrome": "^0.1.36",
+    "vite": "^7.3.1",
+    "vite-plugin-zip-pack": "^1.2.4"
+  }
+}
