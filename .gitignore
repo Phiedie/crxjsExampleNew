@@ -12,6 +12,9 @@ dist
 release
 dist-ssr
 *.local
+AeonikVF-Italic.woff2
+AeonikVF.woff2
+Tiempos-Regular.woff2
 
 # Editor directories and files
 .vscode/*

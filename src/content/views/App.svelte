@@ -6,7 +6,7 @@
 </script>
 
 <div class="fixed bottom-4 right-4 z-50 w-80 rounded-xl bg-white font-sans p-3 shadow-2xl ">
-  <p class="text-sm font-semibold">Shadow DOM Svelte Widget</p>
+  <p class="text-sm font-semibold font-aeo">Shadow DOM Svelte Widget</p>
   <div class="mt-3 space-y-1 text-xs">
     Hier ist die Injezierte App
 
